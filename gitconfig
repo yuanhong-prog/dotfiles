@@ -11,7 +11,7 @@
     lg = log -p
     lld = !git --no-pager log --oneline --decorate --abbrev=12  -10
     lldns = !git --no-pager log --oneline --name-status --decorate -10
-    st = status -sb
+    st = status
     ffm = merge --ff-only
 [branch "master"]
     remote = origin
